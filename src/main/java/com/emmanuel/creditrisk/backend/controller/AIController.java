@@ -14,7 +14,7 @@ import java.util.Map;
 @CrossOrigin(origins = "http://localhost:4200")
 public class AIController {
 
-    @Value("${gemini.api.key}")
+    @Value("${GEMINI_API_KEY}")
     private String geminiApiKey;
 
     // ✅ CONFIRMED BY ListModels
